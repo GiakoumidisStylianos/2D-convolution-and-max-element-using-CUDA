@@ -1,0 +1,2 @@
+# 2D convolution and max element using CUDA
+This program performs 2D matrix convolution using NVIDIA's CUDA API. When run, a 10000x10000 matrix is created containing random floating point numbers in the range [1, 100], as well as a 3x3 kernel used for the convolution which is saved in the GPU's constant memory for fast access. After the convolution is calculated, the maximum element of the new matrix along with its index is found by the GPU and CPU and printed on the terminal.
